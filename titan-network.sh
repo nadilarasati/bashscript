@@ -9,7 +9,7 @@ read -p "Submit identity code: " identity_code
 
 docker run --rm -it -v ~/.titanedge:/root/.titanedge nezha123/titan-edge bind --hash="$identity_code" https://api-test1.container1.titannet.io/api/v2/device/binding
 
-sleep 5
+sleep 10
 
 image_name="nezha123/titan-edge"
 
