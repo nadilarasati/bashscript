@@ -1,5 +1,5 @@
 #!/bin/bash
-git pull
+git reset --hard HEAD && git pull
 sleep 3
 rm start.js
 sleep 1
